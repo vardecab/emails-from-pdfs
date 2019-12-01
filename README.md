@@ -13,6 +13,10 @@ Script runs through all folders, subfolders and files in given location and extr
 3) By default script takes first page of a PDF (`pageObj = pdfReader.getPage(0)`) and there it looks for email address.
 4) Modify regex if needed in `re.search("", full_text)`. By modyfing regex you can easily adapt this script to look for phone numbers, addresses and other info.
 
+### Example
+
+You can download candidates' CVs from your HR platform and this script will extract all email addresses.
+
 ## Roadmap
 
 - Try different pdf-reading libraries to improve success rate.
