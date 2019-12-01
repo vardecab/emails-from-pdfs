@@ -70,6 +70,6 @@ for email_address in email_addresses.values():
   else:
     distinct_email_addresses.append(email_address)
 
-print("Done! File 'emails.json' saved. It went through", counter, "files to find", len(distinct_email_addresses), "email addresses. Success rate: %.2f%% :)" % (100*float(len(distinct_email_addresses)/counter)))
+print("Done! File 'emails.json' saved. Script went through", counter, "files to find", len(distinct_email_addresses), "email addresses. Success rate: %.2f%% :)" % (100*float(len(distinct_email_addresses)/counter)))
 
 # === in order to complete: convert JSON -> CSV online, upload to Excel, transpose = profit ✅ ===
