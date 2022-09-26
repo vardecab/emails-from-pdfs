@@ -1,5 +1,12 @@
 # emails-from-pdfs
 
+![Not Maintained](https://img.shields.io/badge/Maintenance%20Level-Not%20Maintained-yellow.svg)
+
+<br>
+<hr>
+<br>
+<br>
+
 >Extract email addresses from PDFs stored in multiple folders.
 
 Script runs through all folders, subfolders and files in given location and extracts email addresses from 1st pages.
